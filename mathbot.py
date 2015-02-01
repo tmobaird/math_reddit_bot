@@ -3,9 +3,9 @@ import praw
 import sqlite3
 
 userAgent = "/u/simple_math_bot python reddit mathBot"
-userName = "simple_math_bot"
-password = "mathbot23"
-subredditName = "tmobaird_bot_tests"
+userName = "username"
+password = "password"
+subredditName = "umw_cpsc470Z"
 magicPhrase = ["add", "subtract", "multiply", "divide"]
 magicPhrase1 = ["math"]
 
@@ -16,7 +16,7 @@ sql.commit()
 
 print("logging in to reddit")
 r = praw.Reddit(userAgent)
-r.login("tmobaird", "steel23Bull")
+r.login("username", "password")
 
 def mathBot():
         print("Fetching subreddit" + subredditName)
