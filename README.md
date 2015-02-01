@@ -12,3 +12,6 @@ Example 2:
 
 input: math multiply 2 2 2 2
 bot response: your answer is 16
+
+link to umw_cpsc470Z subreddit: http://www.reddit.com/r/umw_cpsc470Z/
+link to math_reddit_bot test page: http://www.reddit.com/r/umw_cpsc470Z/comments/2udmey/simple_math_bot/
