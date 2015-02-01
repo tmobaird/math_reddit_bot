@@ -57,7 +57,7 @@ def mathBot():
                                                                                 total = total * number
                                                                 elif operator == "divide":
                                                                         if total == 0:
-                                                                                total = 1 / number
+                                                                                total = number
                                                                         else:
                                                                                 total = total / number
                                                         comment.reply("Your answer is %d" % total)
